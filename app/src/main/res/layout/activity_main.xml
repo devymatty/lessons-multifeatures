@@ -30,18 +30,18 @@
             app:layout_constraintVertical_bias="0.092" />
 
         <Button
-            android:id="@+id/btn_counter"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="clickButtonButtonCounter"
-            android:text="Кнопка счетчик" />
-
-        <Button
             android:id="@+id/btn_calculator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="clickButtonCalculator"
+            android:onClick="clickButton"
             android:text="Калькулятор" />
+
+        <Button
+            android:id="@+id/btn_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickButton"
+            android:text="Список" />
 
     </LinearLayout>
 

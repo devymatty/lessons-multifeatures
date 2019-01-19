@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,14 +15,25 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void clickButtonButtonCounter(View view) {
-        Intent intent = new Intent(MainActivity.this, ButtonCounterActivity.class);
-        startActivity(intent);
-    }
+    public void clickButton(View view) {
+        Button button = (Button)view;
 
-    public void clickButtonCalculator(View view) {
-        Intent intent = new Intent(MainActivity.this, CalculatorActivity.class);
-        startActivity(intent);
+        Intent intent = null;
+
+        switch (button.getText().toString()) {
+            case "Калькулятор":
+                intent = new Intent(MainActivity.this, CalculatorActivity.class);
+                break;
+            case "Список":
+                intent = new Intent(MainActivity.this, ItemListActivity.class);
+                break;
+            default:
+                break;
+        }
+
+        if (intent != null) {
+            startActivity(intent);
+        }
     }
 
 }

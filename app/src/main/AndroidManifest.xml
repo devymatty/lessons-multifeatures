@@ -17,11 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ButtonCounterActivity"
-            android:label="Кнопка счетчик">
-        </activity>
         <activity android:name=".CalculatorActivity"
             android:label="Калькулятор">
+        </activity>
+        <activity android:name=".ItemListActivity"
+            android:label="Список">
         </activity>
     </application>
 </manifest>
