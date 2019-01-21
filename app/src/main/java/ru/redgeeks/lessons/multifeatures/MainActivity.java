@@ -24,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
             case "Калькулятор":
                 intent = new Intent(MainActivity.this, CalculatorActivity.class);
                 break;
+
+            case "Калькулятор v2":
+                intent = new Intent(MainActivity.this, CalculatorV2Activity.class);
+                break;
+
             case "Список":
                 intent = new Intent(MainActivity.this, ItemListActivity.class);
                 break;

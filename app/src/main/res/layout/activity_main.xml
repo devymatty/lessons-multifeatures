@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Список фич и примеров"
+            android:text="@string/main_title"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.502"
@@ -34,14 +34,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="clickButton"
-            android:text="Калькулятор" />
+            android:text="@string/main_calc" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickButton"
+            android:text="@string/main_calc_v2" />
 
         <Button
             android:id="@+id/btn_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="clickButton"
-            android:text="Список" />
+            android:text="@string/main_list" />
 
     </LinearLayout>
 
