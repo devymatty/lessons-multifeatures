@@ -21,4 +21,8 @@
     <string name="main_calc">Калькулятор</string>
     <string name="main_list">Список</string>
     <string name="main_calc_v2">Калькулятор v2</string>
+    <string name="main_migrate">Передача данных между экранами</string>
+    <string name="migr_string_placeholder">Значение String</string>
+    <string name="migr_int_placeholder">Значение Int</string>
+    <string name="null_value">Отсутствует</string>
 </resources>

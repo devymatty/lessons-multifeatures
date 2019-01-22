@@ -16,22 +16,33 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickButton(View view) {
+        // получаем объект нажатой кнопки с экрана
         Button button = (Button)view;
 
+        // объявляем параметр нового экрана
         Intent intent = null;
 
-        switch (button.getText().toString()) {
-            case "Калькулятор":
+        // получаем текстовое значение из нажатой кнопки
+        String buttonText = button.getText().toString();
+
+        // Используем оператор Switch чтобы создать объект нового экрана соответствующий тексту
+        switch (buttonText) {
+            case "Калькулятор": // Создаем объект экрана демонстрирующего работу калькулятора
                 intent = new Intent(MainActivity.this, CalculatorActivity.class);
                 break;
 
-            case "Калькулятор v2":
+            case "Калькулятор v2": // Создаем объект экрана демонстрирующего работу калькулятора v2
                 intent = new Intent(MainActivity.this, CalculatorV2Activity.class);
                 break;
 
-            case "Список":
+            case "Список": // Создаем объект экрана демонстрирующего работу списка
                 intent = new Intent(MainActivity.this, ItemListActivity.class);
                 break;
+
+                case "Передача данных между экранами":
+                    intent = new Intent(MainActivity.this, MigrateMainActivity.class);
+                    break;
+
             default:
                 break;
         }

@@ -26,5 +26,11 @@
         <activity android:name=".CalculatorV2Activity"
             android:label="Калькулятор V2">
         </activity>
+        <activity android:name=".MigrateMainActivity"
+            android:label="Передача данных между экранами - Первый экран">
+        </activity>
+        <activity android:name=".MigrateDetailActivity"
+            android:label="Передача данных между экранами - Второй экран">
+        </activity>
     </application>
 </manifest>
