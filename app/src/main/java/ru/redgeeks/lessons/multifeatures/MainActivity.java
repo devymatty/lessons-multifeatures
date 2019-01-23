@@ -50,6 +50,11 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, FieldAndToastActivity.class);
                 break;
 
+            case "Диалоговые окна и рейтинг":
+                intent = new Intent(MainActivity.this, AlertAndRatingActivity.class);
+                break;
+
+
             default:
                 break;
         }

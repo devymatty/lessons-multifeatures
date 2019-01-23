@@ -73,6 +73,13 @@
                 android:onClick="clickButton"
                 android:text="@string/toast" />
 
+            <Button
+                android:id="@+id/btn_alert_and_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="clickButton"
+                android:text="Диалоговые окна и рейтинг" />
+
         </LinearLayout>
     </ScrollView>
 

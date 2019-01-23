@@ -29,4 +29,5 @@
     <string name="title_activity_field_and_toast">FieldAndToastActivity</string>
     <string name="toast">Работа с полями и Toast</string>
     <string name="show_toast">Show Toast</string>
+    <string name="alert">Alert</string>
 </resources>
