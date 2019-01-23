@@ -46,6 +46,10 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, ServerActivity.class);
                 break;
 
+            case "Работа с полями и Toast":
+                intent = new Intent(MainActivity.this, FieldAndToastActivity.class);
+                break;
+
             default:
                 break;
         }

@@ -18,7 +18,6 @@ public class NetworkService {
     private static final String BASE_URL = "https://jsonplaceholder.typicode.com";
     private Retrofit mRetrofit;
 
-
     private NetworkService() {
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
         interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="ru.redgeeks.lessons.multifeatures">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,29 +13,34 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".FieldAndToastActivity"
+            android:label="@string/title_activity_field_and_toast"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CalculatorActivity"
-            android:label="Калькулятор">
-        </activity>
-        <activity android:name=".ItemListActivity"
-            android:label="Список">
-        </activity>
-        <activity android:name=".CalculatorV2Activity"
-            android:label="Калькулятор V2">
-        </activity>
-        <activity android:name=".MigrateMainActivity"
-            android:label="Передача данных между экранами - Первый экран">
-        </activity>
-        <activity android:name=".MigrateDetailActivity"
-            android:label="Передача данных между экранами - Второй экран">
-        </activity>
-        <activity android:name=".ServerActivity"
-            android:label="Работа с сервером">
-        </activity>
+        <activity
+            android:name=".CalculatorActivity"
+            android:label="Калькулятор"></activity>
+        <activity
+            android:name=".ItemListActivity"
+            android:label="Список"></activity>
+        <activity
+            android:name=".CalculatorV2Activity"
+            android:label="Калькулятор V2"></activity>
+        <activity
+            android:name=".MigrateMainActivity"
+            android:label="Передача данных между экранами - Первый экран"></activity>
+        <activity
+            android:name=".MigrateDetailActivity"
+            android:label="Передача данных между экранами - Второй экран"></activity>
+        <activity
+            android:name=".ServerActivity"
+            android:label="Работа с сервером"></activity>
     </application>
+
 </manifest>

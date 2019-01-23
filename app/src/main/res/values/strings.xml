@@ -26,4 +26,7 @@
     <string name="migr_int_placeholder">Значение Int</string>
     <string name="null_value">Отсутствует</string>
     <string name="main_work_server">Работа с сервером</string>
+    <string name="title_activity_field_and_toast">FieldAndToastActivity</string>
+    <string name="toast">Работа с полями и Toast</string>
+    <string name="show_toast">Show Toast</string>
 </resources>
