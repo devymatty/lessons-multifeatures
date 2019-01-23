@@ -27,21 +27,24 @@ public class MainActivity extends AppCompatActivity {
 
         // Используем оператор Switch чтобы создать объект нового экрана соответствующий тексту
         switch (buttonText) {
-            case "Калькулятор": // Создаем объект экрана демонстрирующего работу калькулятора
+            case "Калькулятор": // Создаем объект экрана демонстрирующего работу калькулятор
                 intent = new Intent(MainActivity.this, CalculatorActivity.class);
                 break;
 
             case "Калькулятор v2": // Создаем объект экрана демонстрирующего работу калькулятора v2
                 intent = new Intent(MainActivity.this, CalculatorV2Activity.class);
                 break;
-
             case "Список": // Создаем объект экрана демонстрирующего работу списка
                 intent = new Intent(MainActivity.this, ItemListActivity.class);
                 break;
 
-                case "Передача данных между экранами":
-                    intent = new Intent(MainActivity.this, MigrateMainActivity.class);
-                    break;
+            case "Передача данных между экранами":
+                intent = new Intent(MainActivity.this, MigrateMainActivity.class);
+                break;
+
+            case "Работа с сервером":
+                intent = new Intent(MainActivity.this, ServerActivity.class);
+                break;
 
             default:
                 break;

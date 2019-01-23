@@ -25,4 +25,5 @@
     <string name="migr_string_placeholder">Значение String</string>
     <string name="migr_int_placeholder">Значение Int</string>
     <string name="null_value">Отсутствует</string>
+    <string name="main_work_server">Работа с сервером</string>
 </resources>

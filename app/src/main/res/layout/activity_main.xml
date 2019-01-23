@@ -57,6 +57,13 @@
             android:onClick="clickButton"
             android:text="@string/main_migrate" />
 
+        <Button
+            android:id="@+id/btn_server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickButton"
+            android:text="@string/main_work_server" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="ru.redgeeks.lessons.multifeatures">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -31,6 +33,9 @@
         </activity>
         <activity android:name=".MigrateDetailActivity"
             android:label="Передача данных между экранами - Второй экран">
+        </activity>
+        <activity android:name=".ServerActivity"
+            android:label="Работа с сервером">
         </activity>
     </application>
 </manifest>
