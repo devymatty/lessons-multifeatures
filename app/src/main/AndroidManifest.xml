@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".AlertAndRatingActivity"></activity>
+        <activity android:name=".WhatsMyNumberActivity"></activity>
+        <activity android:name=".AlertAndRatingActivity" />
         <activity
             android:name=".FieldAndToastActivity"
             android:label="@string/title_activity_field_and_toast" />

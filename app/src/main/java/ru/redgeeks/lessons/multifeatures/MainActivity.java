@@ -54,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, AlertAndRatingActivity.class);
                 break;
 
+            case "Угадай число - пример":
+                intent = new Intent(MainActivity.this, WhatsMyNumberActivity.class);
+                break;
+
 
             default:
                 break;
